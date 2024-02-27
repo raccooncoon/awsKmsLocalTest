@@ -1,0 +1,11 @@
+Keys:
+  Symmetric:
+    Aes:
+      - Metadata:
+          KeyId: f2f2bdc0-a5d7-41de-aa51-be591640e736
+        BackingKeys:
+          - 5cdaead27fe7da2de47945d73cd6d79e36494e73802f3cd3869f1d2cb0b5d7a9
+
+Aliases:
+  - AliasName: kms-sync/local
+    TargetKeyId: f2f2bdc0-a5d7-41de-aa51-be591640e736

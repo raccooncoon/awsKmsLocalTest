@@ -1,0 +1,4 @@
+kms:
+  keyarn: arn:aws:kms:ap-northeast-2:555555555555:key/f2f2bdc0-a5d7-41de-aa51-be591640e736
+  endpoint:
+    url: http://localhost:58080

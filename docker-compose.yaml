@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  kms-local:
+    image: nsmithuk/local-kms
+    environment:
+      KMS_ACCOUNT_ID: 555555555555
+      KMS_REGION: ap-northeast-2
+    ports:
+      - "58080:8080"
+    volumes:
+      - ./kms/seed.yaml:/init/seed.yaml
